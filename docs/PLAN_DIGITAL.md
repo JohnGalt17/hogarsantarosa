@@ -58,7 +58,7 @@ Ver [CONTENIDO_PENDIENTE.md](CONTENIDO_PENDIENTE.md).
 
 ### 1.4 WhatsApp Business
 
-1. Confirmar número: **0220 49-43155** / internacional **+54 9 220 494-3155**
+1. WhatsApp: **11 6530-6907** / internacional **+54 9 11 6530-6907** (`5491165306907`)
 2. Perfil WhatsApp Business:
    - Foto del hogar (patio o fachada)
    - Descripción: "Hogar familiar en Libertad, Merlo. +40 años. Consultas por plazas."

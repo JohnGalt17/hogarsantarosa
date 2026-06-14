@@ -6,7 +6,7 @@ Checklist para el cliente. Marcar cuando esté listo y actualizar `content/site.
 
 ## Crítico (antes de publicar)
 
-- [ ] **Confirmar WhatsApp** — ¿0220 49-43155 es el número correcto con WhatsApp activo?
+- [x] **WhatsApp** — 11 6530-6907 (`5491165306907`)
 - [ ] **Validar horarios de visita** exactos (ahora: 10–17 hs aprox.)
 - [ ] **Validar lista de servicios** — marcar qué sí ofrecen y qué no
 - [x] **PAMI / obras sociales** — No. Solo modalidad particular.

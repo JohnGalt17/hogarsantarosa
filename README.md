@@ -52,7 +52,7 @@ src/lib/whatsapp.ts   ← generación de links wa.me
 
 ## WhatsApp
 
-El número configurado es `549224943155` (0220 49-43155). Verificar con el cliente que sea el WhatsApp correcto antes de publicar.
+El número configurado es `5491165306907` (11 6530-6907).
 
 ## Estado actual
 
