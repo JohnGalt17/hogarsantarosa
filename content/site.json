@@ -1,0 +1,511 @@
+{
+  "site": {
+    "language": "es-AR",
+    "locale": "es_AR",
+    "domain": "",
+    "published": false
+  },
+  "seo": {
+    "title": "Hogar Santa Rosa — Hogar familiar en Libertad, Merlo",
+    "description": "Más de 40 años cuidando abuelos del barrio en Libertad, Merlo. Atención personalizada, visitas flexibles y el cariño de una familia que lleva décadas en el lugar. Consultá por WhatsApp.",
+    "keywords": [
+      "hogar de ancianos Libertad",
+      "geriátrico Merlo",
+      "residencia adultos mayores zona oeste",
+      "hogar Santa Rosa",
+      "cuidado ancianos Buenos Aires"
+    ]
+  },
+  "brand": {
+    "name": "Hogar Santa Rosa",
+    "short_name": "Santa Rosa",
+    "tagline": "El cuidado, respeto y cariño que tus padres se merecen, cerca tuyo en Merlo",
+    "founded_year": 1984,
+    "years_family_managed": 30,
+    "hero_image": "/images/hogar-frente.jpg",
+    "hero_image_alt": "Frente del Hogar Santa Rosa, Itaqui 1252, Libertad",
+    "logo": "/images/logo-placeholder.svg",
+    "favicon": "/favicon.ico"
+  },
+  "theme": {
+    "style": "familiar",
+    "primary_color": "#5C6B4A",
+    "accent_color": "#C4A574",
+    "font_heading": "serif",
+    "font_body": "sans-serif"
+  },
+  "about": {
+    "headline": "Más de 40 años cuidando como en familia",
+    "story": [
+      "Hogar Santa Rosa nació en Libertad, en el corazón de Merlo. Es un hogar que lleva más de cuatro décadas al cuidado de los abuelos del barrio, administrado por la misma familia que lo fundó.",
+      "No somos una cadena ni un asilo corporativo: somos vecinos que conocen la zona, que ven pasar generaciones y que entienden lo que significa buscar un lugar seguro para mamá o papá.",
+      "Nuestro compromiso es el mismo de siempre: que cada persona se sienta contenida, respetada y acompañada, con la calidez de un hogar y la atención que su situación requiere."
+    ],
+    "image": "/images/hogar-frente.jpg",
+    "image_alt": "Frente del Hogar Santa Rosa, Itaqui 1252, Libertad"
+  },
+  "highlights": [
+    "Familia con más de 30 años en Libertad, Merlo",
+    "Cuidado las 24 horas",
+    "Comidas caseras",
+    "Actividades y compañía",
+    "Visitas en horario amplio",
+    "Acceso para sillas de ruedas"
+  ],
+  "values": [
+    {
+      "id": "cariño",
+      "title": "Cariño de familia",
+      "description": "Tratamos a cada residente como a un integrante más de nuestra casa."
+    },
+    {
+      "id": "respeto",
+      "title": "Respeto y dignidad",
+      "description": "Cada historia es única. La atención se adapta a la persona, no al protocolo."
+    },
+    {
+      "id": "vecinos",
+      "title": "Raíces en Libertad",
+      "description": "Vecinos de Merlo hace décadas. Las familias de la zona nos conocen de toda la vida."
+    },
+    {
+      "id": "transparencia",
+      "title": "Transparencia",
+      "description": "Visitas, comunicación abierta con las familias y respuestas claras a cada consulta."
+    }
+  ],
+  "philosophy": {
+    "headline": "Cuidar a papá o mamá no es abandonarlos",
+    "body": "Muchas familias trabajan todo el día y no pueden dar el acompañamiento que su ser querido necesita. Buscar un hogar con profesionales, actividades y compañía de sus pares puede ser la mejor decisión para su calidad de vida. Nosotros nos ocupamos del cuidado diario para que usted pueda visitarlos con tranquilidad y cariño.",
+    "visits": {
+      "policy": "amplio",
+      "description": "Horario de visitas amplio durante la semana, generalmente de 10:00 a 17:00 hs. Queremos que las familias puedan acompañar a sus seres queridos con flexibilidad.",
+      "restrictions_note": "Confirmar horarios exactos y políticas especiales por WhatsApp."
+    },
+    "resident_profile": "Adultos mayores que necesitan acompañamiento, asistencia en actividades diarias, supervisión médica o un entorno seguro con atención permanente."
+  },
+  "daily_life": {
+    "headline": "Así es un día en Santa Rosa",
+    "intro": "Rutina hogareña, comidas caseras y momentos para compartir.",
+    "items": [
+      {
+        "time": "Mañana",
+        "title": "Desayuno y bienestar",
+        "description": "Comidas caseras, controladas según las necesidades de cada persona."
+      },
+      {
+        "time": "Mediodía",
+        "title": "Actividades y estimulación",
+        "description": "Juegos, estimulación cognitiva, gimnasia suave y momentos recreativos."
+      },
+      {
+        "time": "Tarde",
+        "title": "Visitas de la familia",
+        "description": "Las familias pueden visitar en horario amplio y compartir el mate o una charla en el patio."
+      },
+      {
+        "time": "Noche",
+        "title": "Descanso y cuidado",
+        "description": "Supervisión y asistencia de enfermería las 24 horas."
+      }
+    ]
+  },
+  "services": {
+    "headline": "Lo que ofrecemos",
+    "intro": "Atención integral con el calor de un hogar familiar.",
+    "categories": [
+      {
+        "id": "salud",
+        "title": "Salud y cuidado médico",
+        "items": [
+          {
+            "id": "medico",
+            "title": "Atención médica",
+            "description": "Seguimiento clínico y coordinación con especialistas según necesidad.",
+            "note": null
+          },
+          {
+            "id": "enfermeria",
+            "title": "Servicio de enfermería",
+            "description": "Personal de enfermería disponible las 24 horas.",
+            "note": null
+          },
+          {
+            "id": "medicacion",
+            "title": "Supervisión de medicación",
+            "description": "Control y administración según indicación médica.",
+            "note": null
+          },
+          {
+            "id": "emergencias",
+            "title": "Protocolo de urgencias",
+            "description": "Respuesta ante situaciones de emergencia médica.",
+            "note": "Consultar protocolos detallados en visita o por WhatsApp."
+          }
+        ]
+      },
+      {
+        "id": "cuidado_diario",
+        "title": "Cuidado personal y alimentación",
+        "items": [
+          {
+            "id": "pension",
+            "title": "Pensión completa",
+            "description": "Comidas caseras, equilibradas y adaptadas a cada necesidad.",
+            "note": null
+          },
+          {
+            "id": "asistencia",
+            "title": "Asistencia personalizada",
+            "description": "Ayuda en higiene, movilización y actividades cotidianas.",
+            "note": null
+          },
+          {
+            "id": "nutricion",
+            "title": "Control nutricional",
+            "description": "Dietas ajustadas según indicación y condición de cada residente.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "id": "habitacion",
+        "title": "En la habitación",
+        "items": [
+          {
+            "id": "comodidades",
+            "title": "Comodidades",
+            "description": "Habitaciones con baño, climatización y espacio para descansar.",
+            "note": null
+          },
+          {
+            "id": "llamador",
+            "title": "Llamador de asistencia",
+            "description": "Sistema para solicitar ayuda de enfermería o personal.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "id": "instalaciones",
+        "title": "El espacio",
+        "items": [
+          {
+            "id": "acceso",
+            "title": "Acceso para sillas de ruedas",
+            "description": "Entrada y espacios adaptados para movilidad reducida.",
+            "note": null
+          },
+          {
+            "id": "patio",
+            "title": "Patio y espacios al aire libre",
+            "description": "Ambiente de casa con áreas para disfrutar al aire libre.",
+            "note": null
+          },
+          {
+            "id": "estacionamiento",
+            "title": "Estacionamiento",
+            "description": "Facilidades para familias que visitan en auto.",
+            "note": "Confirmar disponibilidad."
+          }
+        ]
+      },
+      {
+        "id": "actividades",
+        "title": "Actividades y bienestar",
+        "items": [
+          {
+            "id": "recreativas",
+            "title": "Actividades recreativas",
+            "description": "Estimulación cognitiva, juegos y momentos de compañía.",
+            "note": null
+          },
+          {
+            "id": "celebraciones",
+            "title": "Celebraciones",
+            "description": "Cumpleaños y festejos que hacen sentir a cada uno parte de la familia.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "rooms": {
+    "headline": "Habitaciones",
+    "intro": "Espacios cómodos pensados para descansar con tranquilidad. Consultá disponibilidad y modalidades.",
+    "types": [
+      {
+        "id": "individual",
+        "title": "Habitación individual",
+        "description": "Privacidad y tranquilidad para quienes la necesitan.",
+        "features": [
+          "Baño completo",
+          "Climatización",
+          "Llamador de asistencia",
+          "Espacio personal"
+        ],
+        "images": ["/images/habitacion-placeholder.jpg"],
+        "availability_note": "Consultar disponibilidad",
+        "price_display": "consultar",
+        "image_pending": true
+      },
+      {
+        "id": "compartida",
+        "title": "Habitación compartida",
+        "description": "Compañía y ambiente social para quienes disfrutan compartir.",
+        "features": [
+          "Baño completo",
+          "Climatización",
+          "Llamador de asistencia"
+        ],
+        "images": ["/images/habitacion-placeholder.jpg"],
+        "availability_note": "Según disponibilidad",
+        "price_display": "consultar",
+        "image_pending": true
+      }
+    ]
+  },
+  "team": {
+    "headline": "Quienes cuidan",
+    "intro": "La familia que lleva décadas al frente del hogar, con un equipo de cuidado y profesionales de salud.",
+    "members": [
+      {
+        "name": "Familia fundadora",
+        "role": "Dirección y cuidado",
+        "bio": "Segunda generación al frente del hogar. Vecinos de Libertad con más de 40 años de trayectoria.",
+        "image": "/images/team-placeholder.jpg",
+        "image_pending": true
+      }
+    ]
+  },
+  "media": {
+    "gallery": [
+      {
+        "src": "/images/galeria-patio-placeholder.jpg",
+        "alt": "Patio del hogar — foto pendiente",
+        "category": "instalaciones",
+        "pending": true
+      },
+      {
+        "src": "/images/galeria-interior-placeholder.jpg",
+        "alt": "Espacios comunes — foto pendiente",
+        "category": "instalaciones",
+        "pending": true
+      },
+      {
+        "src": "/images/galeria-actividades-placeholder.jpg",
+        "alt": "Actividades con residentes — foto pendiente",
+        "category": "actividades",
+        "pending": true
+      }
+    ],
+    "videos": []
+  },
+  "location": {
+    "headline": "Ubicación",
+    "address": {
+      "street": "Itaqui 1252",
+      "neighborhood": "Libertad",
+      "city": "Merlo",
+      "province": "Provincia de Buenos Aires",
+      "country": "Argentina",
+      "postal_code": "B1716AWB"
+    },
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "directions": "En Libertad, zona oeste del Gran Buenos Aires. Fácil acceso desde Merlo y localidades cercanas. Consulte por WhatsApp el mejor camino si viene en auto o transporte.",
+    "map_url": "https://maps.app.goo.gl/otwrA4d7jf3Yb1iT8",
+    "map_image": "/images/mapa.jpg",
+    "context": "Ubicados en Libertad, Merlo: un barrio conocido, cerca de las familias de la zona."
+  },
+  "contact": {
+    "phone_display": "0220 49-43155",
+    "phone_raw": "02204943155",
+    "whatsapp": {
+      "number": "549224943155",
+      "display": "0220 49-43155",
+      "available_hours": "Consultar horarios de respuesta por WhatsApp",
+      "default_message": "Hola, me gustaría obtener información sobre Hogar Santa Rosa."
+    },
+    "email": "",
+    "email_jobs": "",
+    "social": {
+      "facebook": "",
+      "instagram": ""
+    },
+    "financing_note": "Tenemos un costo accesible para las familias de la zona. Consultanos por WhatsApp según la situación de cada persona."
+  },
+  "payment": {
+    "pami": false,
+    "obra_social": false,
+    "particular": true,
+    "issues_invoices": false,
+    "internal_note": "Sin PAMI ni obras sociales. No emiten facturas: facturar encarece el servicio y la mayoría de familias se va al doble (otros hogares).",
+    "public_summary": "Modalidad particular. No contamos con convenios con obras sociales."
+  },
+  "whatsapp": {
+    "floating_button": {
+      "enabled": true,
+      "text": "Consultar por WhatsApp",
+      "position": "bottom-right"
+    },
+    "templates": [
+      {
+        "id": "consulta_general",
+        "label": "Consulta general",
+        "description": "Información sobre el hogar",
+        "message": "Hola, soy {nombre_visitante}. Me gustaría recibir información sobre Hogar Santa Rosa. Mi teléfono es {telefono_visitante}. {mensaje_libre}"
+      },
+      {
+        "id": "agendar_visita",
+        "label": "Quiero visitar el hogar",
+        "description": "Coordinar una visita sin compromiso",
+        "message": "Hola, soy {nombre_visitante} ({telefono_visitante}). Quisiera agendar una visita a Hogar Santa Rosa en Itaqui 1252, Libertad. Preferencia de fecha: {fecha_visita_preferida}. {mensaje_libre}"
+      },
+      {
+        "id": "consulta_familiar",
+        "label": "Consulta por un familiar",
+        "description": "Cuéntenos la situación de su ser querido",
+        "message": "Hola, soy {nombre_visitante} ({telefono_visitante}). Busco información para mi familiar {nombre_familiar}, de {edad_familiar} años. Situación: {situacion}. {mensaje_libre}"
+      },
+      {
+        "id": "disponibilidad",
+        "label": "Consultar disponibilidad",
+        "description": "Plazas y habitaciones disponibles",
+        "message": "Hola, soy {nombre_visitante} ({telefono_visitante}). Quisiera consultar disponibilidad de plazas en Hogar Santa Rosa. {mensaje_libre}"
+      },
+      {
+        "id": "costos_pension",
+        "label": "Costos y pensión",
+        "description": "Consulta de costos en modalidad particular",
+        "message": "Hola, soy {nombre_visitante} ({telefono_visitante}). Me interesa conocer el costo de la pensión en modalidad particular. {mensaje_libre}"
+      }
+    ],
+    "form_fields": [
+      {
+        "key": "nombre_visitante",
+        "label": "Su nombre",
+        "type": "text",
+        "required": true,
+        "placeholder": "Ej: María García"
+      },
+      {
+        "key": "telefono_visitante",
+        "label": "Su teléfono",
+        "type": "tel",
+        "required": true,
+        "placeholder": "11 XXXX XXXX"
+      },
+      {
+        "key": "nombre_familiar",
+        "label": "Nombre del familiar",
+        "type": "text",
+        "required": false,
+        "show_for_templates": ["consulta_familiar"]
+      },
+      {
+        "key": "edad_familiar",
+        "label": "Edad del familiar",
+        "type": "number",
+        "required": false,
+        "show_for_templates": ["consulta_familiar"]
+      },
+      {
+        "key": "situacion",
+        "label": "Breve descripción de la situación",
+        "type": "textarea",
+        "required": false,
+        "show_for_templates": ["consulta_familiar"]
+      },
+      {
+        "key": "fecha_visita_preferida",
+        "label": "Fecha preferida para visitar",
+        "type": "text",
+        "required": false,
+        "show_for_templates": ["agendar_visita"]
+      },
+      {
+        "key": "mensaje_libre",
+        "label": "Mensaje adicional",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "Lo que quiera agregar..."
+      }
+    ],
+    "variable_defaults": {
+      "nombre_hogar": "Hogar Santa Rosa"
+    }
+  },
+  "cta": {
+    "hero": {
+      "primary": "Consultar disponibilidad por WhatsApp",
+      "secondary": "Ver ubicación",
+      "whatsapp_template_id": "disponibilidad"
+    },
+    "sections": {
+      "after_about": "Queremos conocer su historia",
+      "after_services": "¿Le gustaría visitarnos?",
+      "after_rooms": "Consultar disponibilidad"
+    },
+    "footer": "Estamos para ayudarlos. Escribanos cuando quieran."
+  },
+  "faq": [
+    {
+      "id": "visitas",
+      "question": "¿Cuáles son los horarios de visita?",
+      "answer": "Generalmente de 10:00 a 17:00 hs durante la semana, con flexibilidad para que las familias puedan acompañar a sus seres queridos. Confirmá el horario exacto por WhatsApp."
+    },
+    {
+      "id": "urgencias",
+      "question": "¿Qué pasa si mi familiar tiene una urgencia?",
+      "answer": "Tenemos personal de enfermería las 24 horas y protocolos ante emergencias. En una visita o por WhatsApp podemos explicarle el procedimiento detallado."
+    },
+    {
+      "id": "modalidad_pago",
+      "question": "¿Trabajan con PAMI u obras sociales?",
+      "answer": "Atendemos en modalidad particular. No contamos con convenios con obras sociales."
+    },
+    {
+      "id": "culpa",
+      "question": "¿Es malo llevar a papá o mamá a un hogar?",
+      "answer": "No. Muchas familias no pueden dar el cuidado que necesitan por trabajo u otras responsabilidades. Un hogar con profesionales, actividades y compañía puede mejorar su calidad de vida."
+    },
+    {
+      "id": "perfil",
+      "question": "¿A quién está dirigido el hogar?",
+      "answer": "Adultos mayores que requieren acompañamiento, asistencia diaria, supervisión médica o un entorno seguro con atención permanente."
+    },
+    {
+      "id": "comunicacion",
+      "question": "¿Cómo mantengo contacto con mi familiar?",
+      "answer": "Las visitas son importantes y también puede coordinar llamadas. Consulte los canales de comunicación disponibles por WhatsApp o en su visita."
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Familia de residente",
+      "text": "Encontramos un lugar donde nos sentimos cerca y con respuesta cuando necesitamos hablar.",
+      "year": null,
+      "pending": true,
+      "note": "Reemplazar con testimonio real verificable del cliente"
+    }
+  ],
+  "footer": {
+    "legal_name": "Hogar Santa Rosa",
+    "copyright_from": 1984,
+    "extra_links": []
+  },
+  "digital_status": {
+    "google_maps_rating": 5.2,
+    "google_maps_reviews_count": 18,
+    "needs_reputation_work": true,
+    "conflicting_instagram_accounts": [
+      "https://www.instagram.com/hogar_santarosa/ (Puente Alto, Chile)",
+      "https://www.instagram.com/hoga_rsantarosa/ (Santiago del Estero)",
+      "https://www.instagram.com/hogarstarosa/ (Tigre)"
+    ],
+    "notes": "Crear perfil propio verificado en Google e Instagram para Libertad/Merlo y diferenciarse de homónimos."
+  }
+}
