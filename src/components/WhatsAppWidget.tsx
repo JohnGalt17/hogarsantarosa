@@ -25,7 +25,7 @@ export function WhatsAppWidget({ data }: { data: SiteData }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-[#1ebe57] sm:text-base"
+        className="btn-whatsapp-float fixed bottom-5 right-5 z-50 sm:text-base"
         aria-label={data.whatsapp.floating_button.text}
       >
         <span aria-hidden="true">💬</span>

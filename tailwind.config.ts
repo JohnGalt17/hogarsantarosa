@@ -12,6 +12,11 @@ const config: Config = {
           DEFAULT: "#8B454E",
           hover: "#71373F",
         },
+        sage: {
+          DEFAULT: "#5A7D65",
+          hover: "#486654",
+          light: "#E8F0EA",
+        },
       },
       fontFamily: {
         serif: ["var(--font-serif)", "Georgia", "serif"],

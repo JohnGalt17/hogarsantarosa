@@ -21,7 +21,7 @@ export function Contact({ data }: { data: SiteData }) {
               {data.contact.whatsapp.available_hours}
             </p>
           </div>
-          <div className="card border-[#25D366]/30 bg-[#25D366]/5">
+          <div className="card border-sage/30 bg-sage-light/50">
             <h3 className="font-bold text-lg">WhatsApp</h3>
             <p className="mt-2 text-gray-600">
               La forma más rápida de consultar disponibilidad y costos.

@@ -15,7 +15,7 @@ export function SocialFloats({ data }: { data: SiteData }) {
       {showWhatsApp && (
         <a
           href={buildWhatsAppFromTemplate(data, data.cta.hero.whatsapp_template_id)}
-          className="rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-[#1ebe57]"
+          className="btn-whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
         >

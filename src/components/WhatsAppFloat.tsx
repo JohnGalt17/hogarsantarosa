@@ -7,7 +7,7 @@ export function WhatsAppFloat({ data }: { data: SiteData }) {
   return (
     <a
       href={buildWhatsAppFromTemplate(data, data.cta.hero.whatsapp_template_id)}
-      className="fixed bottom-5 right-5 z-50 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white shadow-lg hover:bg-[#1ebe57]"
+      className="btn-whatsapp-float fixed bottom-5 right-5 z-50"
       target="_blank"
       rel="noopener noreferrer"
     >
