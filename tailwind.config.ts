@@ -5,22 +5,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#FAF7F2",
+        navy: {
+          DEFAULT: "#1E3347",
+          dark: "#152535",
+        },
         sage: {
-          DEFAULT: "#5C6B4A",
-          dark: "#4A5740",
-          light: "#7A8B68",
+          DEFAULT: "#6E8569",
+          dark: "#5A6F55",
+          light: "#8FA389",
         },
-        warm: {
-          DEFAULT: "#C4A574",
-          dark: "#A88858",
-          light: "#D9C4A0",
-        },
-        earth: "#8B7355",
+        cream: "#F7F5F0",
+        peach: "#F5E6DC",
+        sky: "#E8F2F8",
       },
       fontFamily: {
-        serif: ["Georgia", "Times New Roman", "serif"],
-        sans: ["Segoe UI", "system-ui", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "serif"],
+        sans: ["var(--font-sans)", "Segoe UI", "system-ui", "sans-serif"],
       },
     },
   },

@@ -19,7 +19,8 @@
   "brand": {
     "name": "Hogar Santa Rosa",
     "short_name": "Santa Rosa",
-    "tagline": "El cuidado, respeto y cariño que tus padres se merecen, cerca tuyo en Merlo",
+    "tagline": "Donde cada abuelo es familia",
+    "subtitle": "Comida casera hecha con amor todos los días",
     "founded_year": 1984,
     "years_family_managed": 30,
     "hero_image": "/images/hogar-frente.jpg",
@@ -28,12 +29,31 @@
     "favicon": "/favicon.ico"
   },
   "theme": {
-    "style": "familiar",
-    "primary_color": "#5C6B4A",
-    "accent_color": "#C4A574",
+    "style": "instagram",
+    "primary_color": "#1E3347",
+    "secondary_color": "#6E8569",
+    "accent_color": "#F5E6DC",
+    "background_color": "#F7F5F0",
     "font_heading": "serif",
     "font_body": "sans-serif"
   },
+  "pillars": [
+    {
+      "id": "dignidad",
+      "title": "Cuidado con dignidad",
+      "description": "Acompañamos a cada abuelo con respeto, empatía y cariño. Priorizamos su bienestar y calidad de vida en todo momento."
+    },
+    {
+      "id": "atencion",
+      "title": "Atención personalizada",
+      "description": "Equipo de enfermería y cuidadores capacitados, con trato cálido y humano. Contamos con nuestra Directora Médica Clínica y Neuróloga Dra. Claudia E. Maiorino para seguimiento integral."
+    },
+    {
+      "id": "ambiente",
+      "title": "Ambiente familiar",
+      "description": "Instalaciones amplias, luminosas y adaptadas. Habitaciones compartidas e individuales, espacios verdes para disfrutar del aire libre y sala de estar para compartir mates y charlas."
+    }
+  ],
   "about": {
     "headline": "Más de 40 años cuidando como en familia",
     "story": [
@@ -321,26 +341,27 @@
     "context": "Ubicados en Libertad, Merlo: un barrio conocido, cerca de las familias de la zona."
   },
   "contact": {
-    "phone_display": "11 6530-6907",
-    "phone_raw": "1165306907",
+    "phone_display": "11 7543-1582",
+    "phone_raw": "1175431582",
     "whatsapp": {
-      "number": "5491165306907",
-      "display": "11 6530-6907",
-      "available_hours": "Consultar horarios de respuesta por WhatsApp",
+      "number": "5491175431582",
+      "display": "11 7543-1582",
+      "available_hours": "Consultar disponibilidad por WhatsApp o Instagram",
       "default_message": "Hola, me gustaría obtener información sobre Hogar Santa Rosa."
     },
     "email": "",
     "email_jobs": "",
     "social": {
       "facebook": "",
-      "instagram": ""
+      "instagram": "https://www.instagram.com/hogar.santarosa/"
     },
     "instagram": {
-      "url": "",
-      "display": "Instagram",
-      "button_text": "Seguinos en Instagram"
+      "url": "https://www.instagram.com/hogar.santarosa/",
+      "dm_url": "https://ig.me/m/hogar.santarosa",
+      "display": "@hogar.santarosa",
+      "button_text": "Consultanos por Instagram"
     },
-    "financing_note": "Tenemos un costo accesible para las familias de la zona. Consultanos por WhatsApp según la situación de cada persona."
+    "financing_note": "Tenemos un costo accesible para las familias de la zona. Consultanos por WhatsApp o Instagram según la situación de cada persona."
   },
   "payment": {
     "pami": false,
@@ -353,7 +374,7 @@
   "instagram": {
     "floating_button": {
       "enabled": true,
-      "text": "Instagram"
+      "text": "Consultanos por Instagram"
     }
   },
   "whatsapp": {

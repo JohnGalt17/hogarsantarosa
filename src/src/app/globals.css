@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-navy antialiased;
+    background-image:
+      radial-gradient(circle at 0% 0%, rgb(232 242 248 / 0.9), transparent 42%),
+      radial-gradient(circle at 100% 10%, rgb(245 230 220 / 0.75), transparent 38%),
+      linear-gradient(180deg, #f7f5f0 0%, #f7f5f0 100%);
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif text-navy;
+  }
+}
+
+@layer components {
+  .brand-title {
+    @apply font-serif text-xl font-bold uppercase tracking-[0.12em] text-navy sm:text-2xl;
+  }
+
+  .brand-subtitle {
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-sage sm:text-sm;
+  }
+
+  .section-card {
+    @apply rounded-2xl border border-sage/15 bg-white/90 p-5 shadow-sm backdrop-blur-sm;
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#1ebe57];
+  }
+
+  .btn-instagram {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white shadow-md transition hover:bg-navy-dark;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-sage px-6 py-3 font-semibold text-sage transition hover:bg-sage hover:text-white;
+  }
+}
