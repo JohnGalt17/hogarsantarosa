@@ -9,10 +9,10 @@ export function FAQ({ data }: { data: SiteData }) {
         <div className="mt-6 space-y-3">
           {data.faq.map((item) => (
             <details key={item.id} className="section-card">
-              <summary className="cursor-pointer list-none font-semibold text-navy">
+              <summary className="cursor-pointer list-none font-semibold text-coffee">
                 {item.question}
               </summary>
-              <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-navy/75">
+              <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-coffee/80">
                 {item.answer}
               </p>
             </details>

@@ -23,7 +23,7 @@ export function BrandMark({ data, size = "sm" }: BrandMarkProps) {
           alt={logoAlt}
           width={64}
           height={64}
-          className={`${sizes.box} shrink-0 rounded-full border border-sage/20 bg-white object-cover shadow-sm`}
+          className={`${sizes.box} shrink-0 rounded-full border border-coffee/15 bg-cream object-cover shadow-sm`}
         />
       )}
       <span className={`brand-title leading-tight ${sizes.text}`}>

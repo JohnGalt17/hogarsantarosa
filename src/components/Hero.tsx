@@ -12,9 +12,7 @@ export function Hero({ data }: { data: SiteData }) {
   return (
     <section className="animate-fade-in px-4 py-8 sm:px-6">
       <div className="mx-auto max-w-3xl">
-        {showVideo && video ? (
-          <HeroVideo video={video} />
-        ) : null}
+        {showVideo && video ? <HeroVideo video={video} /> : null}
 
         <p className="brand-subtitle mt-6">
           {data.brand.years_family_managed}+ años · Libertad, Merlo
@@ -26,11 +24,11 @@ export function Hero({ data }: { data: SiteData }) {
           {data.brand.tagline}
         </p>
         {data.brand.subtitle && (
-          <p className="mt-3 font-serif text-lg italic text-sage-dark">
+          <p className="mt-3 font-serif text-lg italic text-burgundy/90">
             {data.brand.subtitle}
           </p>
         )}
-        <p className="mt-4 leading-relaxed text-navy/80">{data.about.story[0]}</p>
+        <p className="mt-4 leading-relaxed text-coffee/85">{data.about.story[0]}</p>
 
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <a
@@ -44,7 +42,7 @@ export function Hero({ data }: { data: SiteData }) {
           {instagramUrl && (
             <a
               href={instagramUrl}
-              className="btn-instagram w-full text-center text-lg !py-4 sm:w-auto"
+              className="btn-primary w-full text-center text-lg !py-4 sm:w-auto"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,8 +51,8 @@ export function Hero({ data }: { data: SiteData }) {
           )}
         </div>
 
-        <p className="mt-4 text-center text-sm text-navy/60 sm:text-left">
-          <a href={`tel:${data.contact.phone_raw}`} className="font-medium text-sage hover:underline">
+        <p className="mt-4 text-center text-sm text-coffee/70 sm:text-left">
+          <a href={`tel:${data.contact.phone_raw}`} className="link-accent">
             {data.contact.phone_display}
           </a>
           {data.contact.instagram?.display && instagramUrl && (
@@ -62,7 +60,7 @@ export function Hero({ data }: { data: SiteData }) {
               {" · "}
               <a
                 href={instagramUrl}
-                className="font-medium text-sage hover:underline"
+                className="link-accent"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -71,7 +69,7 @@ export function Hero({ data }: { data: SiteData }) {
             </>
           )}
           {" · "}
-          <a href="#ubicacion" className="text-sage hover:underline">
+          <a href="#ubicacion" className="link-accent">
             Ver ubicación
           </a>
         </p>

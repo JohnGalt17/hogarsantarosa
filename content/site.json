@@ -29,11 +29,12 @@
     "favicon": "/favicon.ico"
   },
   "theme": {
-    "style": "instagram",
-    "primary_color": "#1E3347",
-    "secondary_color": "#6E8569",
-    "accent_color": "#F5E6DC",
-    "background_color": "#F7F5F0",
+    "style": "calidez",
+    "primary_color": "#8B454E",
+    "secondary_color": "#F6E8DF",
+    "background_color": "#FFF9F6",
+    "text_color": "#4A3B32",
+    "accent_color": "#8B454E",
     "font_heading": "serif",
     "font_body": "sans-serif"
   },

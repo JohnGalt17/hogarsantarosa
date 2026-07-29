@@ -3,52 +3,103 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-bg-main: #fff9f6;
+    --color-bg-secondary: #f6e8df;
+    --color-text-main: #4a3b32;
+    --color-accent: #8b454e;
+    --color-accent-hover: #71373f;
+    --color-text-on-accent: #ffffff;
+    --color-border: rgb(74 59 50 / 0.15);
+  }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-cream font-sans text-navy antialiased;
-    background-image:
-      radial-gradient(circle at 0% 0%, rgb(232 242 248 / 0.9), transparent 42%),
-      radial-gradient(circle at 100% 10%, rgb(245 230 220 / 0.75), transparent 38%),
-      linear-gradient(180deg, #f7f5f0 0%, #f7f5f0 100%);
+    @apply bg-cream font-sans text-coffee antialiased;
+    background-image: radial-gradient(
+      circle at 100% 0%,
+      rgb(246 232 223 / 0.55),
+      transparent 42%
+    );
   }
 
   h1,
   h2,
-  h3 {
-    @apply font-serif text-navy;
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-coffee;
+  }
+
+  a {
+    @apply text-burgundy transition-colors hover:text-burgundy-hover;
+  }
+
+  hr {
+    border-color: var(--color-border);
   }
 }
 
 @layer components {
   .brand-title {
-    @apply font-serif text-xl font-bold uppercase tracking-[0.12em] text-navy sm:text-2xl;
+    @apply font-serif text-xl font-bold uppercase tracking-[0.12em] text-coffee sm:text-2xl;
   }
 
   .brand-subtitle {
-    @apply text-xs font-semibold uppercase tracking-[0.18em] text-sage sm:text-sm;
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-burgundy sm:text-sm;
   }
 
   .section-card {
-    @apply rounded-2xl border border-sage/15 bg-white/90 p-5 shadow-sm backdrop-blur-sm;
+    @apply rounded-2xl border border-coffee/15 bg-almond p-5 shadow-sm;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-burgundy px-6 py-3 font-semibold text-white shadow-md transition duration-200 hover:bg-burgundy-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy;
   }
 
   .btn-whatsapp {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#1ebe57];
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white shadow-md transition duration-200 hover:bg-[#1ebe57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#25D366];
   }
 
   .btn-instagram {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white shadow-md transition hover:bg-navy-dark;
+    @apply btn-primary;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-sage px-6 py-3 font-semibold text-sage transition hover:bg-sage hover:text-white;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-burgundy px-6 py-3 font-semibold text-burgundy transition duration-200 hover:bg-burgundy hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy;
+  }
+
+  .link-accent {
+    @apply font-medium text-burgundy hover:text-burgundy-hover hover:underline;
   }
 
   .hero-play-btn {
+    @apply bg-burgundy text-white;
     animation: hero-pulse 2.5s ease-in-out infinite;
+  }
+
+  .info-card {
+    @apply flex gap-4 rounded-2xl border border-coffee/15 bg-cream p-5 shadow-sm sm:gap-5 sm:p-6;
+  }
+
+  .info-card-icon {
+    @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-burgundy/20 bg-burgundy/10 text-burgundy sm:h-14 sm:w-14;
+  }
+
+  .info-card-title {
+    @apply font-serif text-xl font-bold leading-snug text-burgundy sm:text-2xl;
+  }
+
+  .info-card-body {
+    @apply mt-2 text-base leading-relaxed text-coffee/80;
+  }
+
+  .info-tag {
+    @apply rounded-full border border-burgundy/20 bg-almond px-3 py-1.5 text-sm font-medium text-coffee;
   }
 }
 
@@ -56,11 +107,11 @@
   0%,
   100% {
     transform: scale(1);
-    box-shadow: 0 10px 25px rgb(30 51 71 / 0.2);
+    box-shadow: 0 10px 25px rgb(139 69 78 / 0.25);
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 12px 28px rgb(30 51 71 / 0.28);
+    box-shadow: 0 12px 28px rgb(139 69 78 / 0.35);
   }
 }
 
