@@ -3,24 +3,33 @@ import type { SiteData } from "@/types/site";
 export function SimpleInfo({ data }: { data: SiteData }) {
   return (
     <section id="info" className="px-4 py-8 sm:px-6">
-      <div className="mx-auto max-w-3xl">
-        <h2 className="text-xl font-bold text-sage-dark">Un hogar de familia</h2>
-        <p className="mt-3 text-gray-600 leading-relaxed">{data.about.story[1]}</p>
+      <div className="mx-auto max-w-3xl space-y-8">
+        {data.pillars.map((pillar) => (
+          <div
+            key={pillar.id}
+            className="section-card border-l-4 border-l-sage pl-5"
+          >
+            <h2 className="text-lg font-bold text-navy">{pillar.title}</h2>
+            <p className="mt-2 leading-relaxed text-navy/80">{pillar.description}</p>
+          </div>
+        ))}
 
-        <h3 className="mt-8 text-lg font-bold text-sage-dark">Lo que ofrecemos</h3>
-        <ul className="mt-4 space-y-2 text-gray-700">
-          {data.highlights.map((item) => (
-            <li key={item} className="flex gap-2">
-              <span className="text-sage">✓</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
+        <div>
+          <h3 className="text-lg font-bold text-navy">Lo que ofrecemos</h3>
+          <ul className="mt-4 space-y-2 text-navy/80">
+            {data.highlights.map((item) => (
+              <li key={item} className="flex gap-2">
+                <span className="font-bold text-sage">✓</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-        <div className="mt-8 rounded-xl border border-warm-light bg-white p-4 text-sm text-gray-600">
-          <p className="font-medium text-gray-800">{data.payment?.public_summary}</p>
+        <div className="section-card text-sm text-navy/75">
+          <p className="font-medium text-navy">{data.payment?.public_summary}</p>
           <p className="mt-2">{data.contact.financing_note}</p>
-          <p className="mt-2 text-earth">
+          <p className="mt-2 text-sage-dark">
             Visitas: {data.philosophy.visits.description}
           </p>
         </div>

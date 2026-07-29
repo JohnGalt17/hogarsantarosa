@@ -29,7 +29,7 @@ export function SocialFloats({ data }: { data: SiteData }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {data.instagram?.floating_button.text ?? "Instagram"}
+          {data.instagram?.floating_button.text ?? "Consultanos por Instagram"}
         </a>
       )}
     </div>

@@ -11,7 +11,7 @@ export function Hero({ data }: { data: SiteData }) {
   return (
     <section className="px-4 py-8 sm:px-6">
       <div className="mx-auto max-w-3xl">
-        <div className="overflow-hidden rounded-2xl shadow-md">
+        <div className="overflow-hidden rounded-2xl border border-sage/15 shadow-md">
           <Image
             src={imageSrc}
             alt={imageAlt}
@@ -22,15 +22,19 @@ export function Hero({ data }: { data: SiteData }) {
           />
         </div>
 
-        <p className="mt-6 text-sm font-medium text-earth">
-          {data.brand.years_family_managed}+ años en Libertad, Merlo
+        <p className="brand-subtitle mt-6">
+          {data.brand.years_family_managed}+ años · Libertad, Merlo
         </p>
-        <h1 className="mt-2 text-2xl font-bold leading-snug sm:text-3xl">
+        <h1 className="brand-title mt-3 text-3xl sm:text-4xl">{data.brand.name}</h1>
+        <p className="brand-subtitle mt-2 normal-case tracking-[0.08em]">
           {data.brand.tagline}
-        </h1>
-        <p className="mt-4 text-gray-600 leading-relaxed">
-          {data.about.story[0]}
         </p>
+        {data.brand.subtitle && (
+          <p className="mt-3 font-serif text-lg italic text-sage-dark">
+            {data.brand.subtitle}
+          </p>
+        )}
+        <p className="mt-4 leading-relaxed text-navy/80">{data.about.story[0]}</p>
 
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <a
@@ -48,15 +52,28 @@ export function Hero({ data }: { data: SiteData }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {data.contact.instagram?.button_text ?? "Seguinos en Instagram"}
+              {data.contact.instagram?.button_text ?? "Consultanos por Instagram"}
             </a>
           )}
         </div>
 
-        <p className="mt-4 text-center text-sm text-gray-500 sm:text-left">
-          <a href={`tel:${data.contact.phone_raw}`} className="text-sage hover:underline">
+        <p className="mt-4 text-center text-sm text-navy/60 sm:text-left">
+          <a href={`tel:${data.contact.phone_raw}`} className="font-medium text-sage hover:underline">
             {data.contact.phone_display}
           </a>
+          {data.contact.instagram?.display && instagramUrl && (
+            <>
+              {" · "}
+              <a
+                href={instagramUrl}
+                className="font-medium text-sage hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {data.contact.instagram.display}
+              </a>
+            </>
+          )}
           {" · "}
           <a href="#ubicacion" className="text-sage hover:underline">
             Ver ubicación

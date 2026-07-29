@@ -6,16 +6,16 @@ export function Header({ data }: { data: SiteData }) {
   const instagramUrl = getInstagramUrl(data);
 
   return (
-    <header className="border-b border-warm-light/60 bg-cream">
+    <header className="border-b border-sage/20 bg-white/70 backdrop-blur-sm">
       <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-4 py-4">
-        <a href="#" className="font-serif text-lg font-bold text-sage-dark">
+        <a href="#" className="brand-title text-base sm:text-lg">
           {data.brand.name}
         </a>
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-2">
           {instagramUrl && (
             <a
               href={instagramUrl}
-              className="btn-instagram !px-4 !py-2 text-sm"
+              className="btn-instagram !px-3 !py-2 text-xs sm:text-sm"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ export function Header({ data }: { data: SiteData }) {
           )}
           <a
             href={buildWhatsAppFromTemplate(data, data.cta.hero.whatsapp_template_id)}
-            className="btn-whatsapp !px-4 !py-2 text-sm"
+            className="btn-whatsapp !px-3 !py-2 text-xs sm:text-sm"
             target="_blank"
             rel="noopener noreferrer"
           >

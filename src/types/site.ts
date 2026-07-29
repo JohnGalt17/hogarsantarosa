@@ -5,6 +5,7 @@ export interface SiteData {
     name: string;
     short_name: string;
     tagline: string;
+    subtitle?: string;
     founded_year: number;
     years_family_managed: number;
     hero_image?: string;
@@ -15,10 +16,13 @@ export interface SiteData {
   theme: {
     style: string;
     primary_color: string;
+    secondary_color?: string;
     accent_color: string;
+    background_color?: string;
     font_heading: string;
     font_body: string;
   };
+  pillars: Array<{ id: string; title: string; description: string }>;
   about: {
     headline: string;
     story: string[];
@@ -117,6 +121,7 @@ export interface SiteData {
     social: { facebook: string; instagram: string };
     instagram?: {
       url: string;
+      dm_url?: string;
       display: string;
       button_text: string;
     };
