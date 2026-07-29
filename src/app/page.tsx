@@ -1,7 +1,6 @@
 import { siteData } from "@/lib/site-data";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { VideoSection } from "@/components/VideoSection";
 import { SimpleInfo } from "@/components/SimpleInfo";
 import { Location } from "@/components/Location";
 import { FAQ } from "@/components/FAQ";
@@ -16,7 +15,6 @@ export default function HomePage() {
       <Header data={data} />
       <main>
         <Hero data={data} />
-        <VideoSection data={data} />
         <SimpleInfo data={data} />
         <Location data={data} />
         <FAQ data={data} />

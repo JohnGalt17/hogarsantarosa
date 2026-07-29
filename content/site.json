@@ -76,7 +76,7 @@
     {
       "id": "cuidados_medicos",
       "title": "Cuidados Médicos",
-      "description": "Las residencias cuentan con una directora médica de especialidad clínica y gerontológica, Nutricionista y Office de enfermería.",
+      "description": "Las residencias cuentan con una directora médica de especialidad clínica y gerontológica, Nutricionista y Equipo de enfermería.",
       "items": []
     },
     {
@@ -351,11 +351,16 @@
     ],
     "featured_video": {
       "enabled": true,
-      "src": "/video/VIDEO_01.mov",
-      "src_mp4": "",
+      "show_in_hero": true,
+      "src": "/video/video_01.mp4",
+      "src_mp4": "/video/video_01.mp4",
+      "src_mov": "/video/VIDEO_01.mov",
       "poster": "/images/hogar-frente.jpg",
       "title": "Conocé nuestro hogar",
-      "description": "Un recorrido por Hogar Santa Rosa en Libertad, Merlo."
+      "description": "Un recorrido por Hogar Santa Rosa en Libertad, Merlo.",
+      "play_label": "Ver el hogar",
+      "play_hint": "Tocá para conocer el lugar",
+      "mobile_note": "Ideal ver con Wi‑Fi · No consume datos hasta que tocás play"
     },
     "videos": []
   },

@@ -46,4 +46,35 @@
   .btn-outline {
     @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-sage px-6 py-3 font-semibold text-sage transition hover:bg-sage hover:text-white;
   }
+
+  .hero-play-btn {
+    animation: hero-pulse 2.5s ease-in-out infinite;
+  }
+}
+
+@keyframes hero-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgb(30 51 71 / 0.2);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 12px 28px rgb(30 51 71 / 0.28);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
 }

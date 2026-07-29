@@ -3,7 +3,12 @@ import type { SiteData } from "@/types/site";
 export function VideoSection({ data }: { data: SiteData }) {
   const video = data.media.featured_video;
 
-  if (!video?.enabled || !video.src) return null;
+  if (!video?.enabled) return null;
+
+  const mp4 = video.src_mp4 || (video.src?.endsWith(".mp4") ? video.src : null);
+  const mov = video.src_mov || (video.src?.endsWith(".mov") ? video.src : null);
+
+  if (!mp4 && !mov) return null;
 
   return (
     <section id="video" className="px-4 py-8 sm:px-6">
@@ -21,8 +26,8 @@ export function VideoSection({ data }: { data: SiteData }) {
             preload="metadata"
             poster={video.poster}
           >
-            {video.src_mp4 && <source src={video.src_mp4} type="video/mp4" />}
-            <source src={video.src} type="video/quicktime" />
+            {mp4 && <source src={mp4} type="video/mp4" />}
+            {mov && mov !== mp4 && <source src={mov} type="video/quicktime" />}
             Tu navegador no puede reproducir este video.
           </video>
         </div>

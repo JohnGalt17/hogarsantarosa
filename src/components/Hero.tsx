@@ -1,27 +1,20 @@
-import Image from "next/image";
 import type { SiteData } from "@/types/site";
 import { buildWhatsAppFromTemplate } from "@/lib/whatsapp";
 import { getInstagramUrl } from "@/lib/instagram";
 import { BrandMark } from "./BrandMark";
+import { HeroVideo } from "./HeroVideo";
 
 export function Hero({ data }: { data: SiteData }) {
-  const imageSrc = data.brand.hero_image ?? data.about.image;
-  const imageAlt = data.brand.hero_image_alt ?? data.about.image_alt;
   const instagramUrl = getInstagramUrl(data);
+  const video = data.media.featured_video;
+  const showVideo = video?.enabled && video.show_in_hero !== false;
 
   return (
-    <section className="px-4 py-8 sm:px-6">
+    <section className="animate-fade-in px-4 py-8 sm:px-6">
       <div className="mx-auto max-w-3xl">
-        <div className="overflow-hidden rounded-2xl border border-sage/15 shadow-md">
-          <Image
-            src={imageSrc}
-            alt={imageAlt}
-            width={1200}
-            height={800}
-            className="h-auto w-full object-cover"
-            priority
-          />
-        </div>
+        {showVideo && video ? (
+          <HeroVideo video={video} />
+        ) : null}
 
         <p className="brand-subtitle mt-6">
           {data.brand.years_family_managed}+ años · Libertad, Merlo

@@ -97,11 +97,16 @@ export interface SiteData {
     }>;
     featured_video?: {
       enabled: boolean;
+      show_in_hero?: boolean;
       src: string;
       src_mp4?: string;
+      src_mov?: string;
       poster?: string;
       title: string;
       description?: string;
+      play_label?: string;
+      play_hint?: string;
+      mobile_note?: string;
     };
     videos: Array<{ title: string; url: string; thumbnail: string }>;
   };
