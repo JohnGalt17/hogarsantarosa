@@ -25,7 +25,7 @@
     "years_family_managed": 30,
     "hero_image": "/images/hogar-frente.jpg",
     "hero_image_alt": "Frente del Hogar Santa Rosa, Itaqui 1252, Libertad",
-    "logo": "/images/logo-placeholder.svg",
+    "logo": "/images/image_logo_1.jpg",
     "favicon": "/favicon.ico"
   },
   "theme": {
@@ -319,6 +319,14 @@
         "pending": true
       }
     ],
+    "featured_video": {
+      "enabled": true,
+      "src": "/video/VIDEO_01.mov",
+      "src_mp4": "",
+      "poster": "/images/hogar-frente.jpg",
+      "title": "Conocé nuestro hogar",
+      "description": "Un recorrido por Hogar Santa Rosa en Libertad, Merlo."
+    },
     "videos": []
   },
   "location": {

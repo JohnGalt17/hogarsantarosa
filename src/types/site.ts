@@ -89,6 +89,14 @@ export interface SiteData {
       category: string;
       pending?: boolean;
     }>;
+    featured_video?: {
+      enabled: boolean;
+      src: string;
+      src_mp4?: string;
+      poster?: string;
+      title: string;
+      description?: string;
+    };
     videos: Array<{ title: string; url: string; thumbnail: string }>;
   };
   location: {

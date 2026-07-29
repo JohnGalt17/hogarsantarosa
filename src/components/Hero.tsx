@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { SiteData } from "@/types/site";
 import { buildWhatsAppFromTemplate } from "@/lib/whatsapp";
 import { getInstagramUrl } from "@/lib/instagram";
+import { BrandMark } from "./BrandMark";
 
 export function Hero({ data }: { data: SiteData }) {
   const imageSrc = data.brand.hero_image ?? data.about.image;
@@ -25,7 +26,9 @@ export function Hero({ data }: { data: SiteData }) {
         <p className="brand-subtitle mt-6">
           {data.brand.years_family_managed}+ años · Libertad, Merlo
         </p>
-        <h1 className="brand-title mt-3 text-3xl sm:text-4xl">{data.brand.name}</h1>
+        <div className="mt-3">
+          <BrandMark data={data} size="lg" />
+        </div>
         <p className="brand-subtitle mt-2 normal-case tracking-[0.08em]">
           {data.brand.tagline}
         </p>
