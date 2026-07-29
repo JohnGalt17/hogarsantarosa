@@ -79,7 +79,7 @@
     "body": "Muchas familias trabajan todo el día y no pueden dar el acompañamiento que su ser querido necesita. Buscar un hogar con profesionales, actividades y compañía de sus pares puede ser la mejor decisión para su calidad de vida. Nosotros nos ocupamos del cuidado diario para que usted pueda visitarlos con tranquilidad y cariño.",
     "visits": {
       "policy": "amplio",
-      "description": "Las visitas se coordinan con el equipo para garantizar el bienestar de todos los residentes. Sugerimos reservar horario, pero contamos con flexibilidad para situaciones especiales.",
+      "description": "Las visitas se coordinan con la encargada para garantizar el bienestar de todos los residentes. Sugerimos reservar horario, pero contamos con flexibilidad para situaciones especiales.",
       "restrictions_note": "Confirmar horarios exactos y políticas especiales por WhatsApp."
     },
     "resident_profile": "Adultos mayores que necesitan acompañamiento, asistencia en actividades diarias, supervisión médica o un entorno seguro con atención permanente."
@@ -471,17 +471,17 @@
     {
       "id": "visitas",
       "question": "¿Puedo visitar a mi familiar en cualquier momento?",
-      "answer": "Las visitas se coordinan con el equipo para garantizar el bienestar de todos los residentes. Sugerimos reservar horario, pero contamos con flexibilidad para situaciones especiales."
+      "answer": "Las visitas se coordinan con la encargada para garantizar el bienestar de todos los residentes. Sugerimos reservar horario, pero contamos con flexibilidad para situaciones especiales."
     },
     {
       "id": "habitaciones",
       "question": "¿Habitaciones compartidas?",
-      "answer": "Disponemos de habitaciones individuales y compartidas (2, 3 o 4 camas) según preferencia y necesidades."
+      "answer": "Contamos habitaciones individuales y compartidas (2, 3 o 4 camas) según preferencia y necesidades. Todas con calefacción, servicio de wifi y television."
     },
     {
       "id": "comidas",
       "question": "¿Cómo es el servicio de comidas?",
-      "answer": "Tenemos catering propio con menús supervisados por nutricionista. Se adaptan dietas especiales, texturas y horarios según indicaciones médicas."
+      "answer": "Tenemos catering propio con menús supervisados por nutricionista. Se adaptan dietas especiales, texturas y horarios según indicaciones médicas.\n\nDesayuno\nColacion\nAlmuerzo\nColacion\nMerienda\nCena"
     },
     {
       "id": "seguridad",

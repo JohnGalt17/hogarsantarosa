@@ -14,7 +14,7 @@ export function FAQ({ data }: { data: SiteData }) {
               <summary className="cursor-pointer font-medium text-gray-900 list-none">
                 {item.question}
               </summary>
-              <p className="mt-2 text-sm text-gray-600 leading-relaxed">{item.answer}</p>
+              <p className="mt-2 whitespace-pre-line text-sm text-gray-600 leading-relaxed">{item.answer}</p>
             </details>
           ))}
         </div>
