@@ -72,6 +72,36 @@
     "Visitas en horario amplio",
     "Acceso para sillas de ruedas"
   ],
+  "info_sections": [
+    {
+      "id": "cuidados_medicos",
+      "title": "Cuidados Médicos",
+      "description": "Las residencias cuentan con una directora médica de especialidad clínica y gerontológica, Nutricionista y Office de enfermería.",
+      "items": []
+    },
+    {
+      "id": "residentes",
+      "title": "Residentes",
+      "description": "Atendemos distintos niveles de necesidad:",
+      "items": [
+        "Autoválidos",
+        "Semi-dependientes",
+        "Dependientes",
+        "Alzheimer",
+        "Demencias",
+        "Cuidados paliativos",
+        "Hóspice",
+        "Rehabilitación",
+        "Alimentación enteral"
+      ]
+    },
+    {
+      "id": "otros_servicios",
+      "title": "Otros Servicios",
+      "description": "Peluquería, manicura y belleza de pies para el bienestar integral de nuestros residentes.",
+      "items": []
+    }
+  ],
   "values": [
     {
       "id": "cariño",

@@ -2,6 +2,7 @@ import { siteData } from "@/lib/site-data";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { VideoSection } from "@/components/VideoSection";
+import { SimpleInfo } from "@/components/SimpleInfo";
 import { Location } from "@/components/Location";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";

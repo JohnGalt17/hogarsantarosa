@@ -31,6 +31,12 @@ export interface SiteData {
     image_pending?: boolean;
   };
   highlights: string[];
+  info_sections: Array<{
+    id: string;
+    title: string;
+    description: string;
+    items: string[];
+  }>;
   values: Array<{ id: string; title: string; description: string }>;
   philosophy: {
     headline: string;
