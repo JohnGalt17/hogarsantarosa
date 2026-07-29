@@ -115,6 +115,11 @@ export interface SiteData {
     email: string;
     email_jobs: string;
     social: { facebook: string; instagram: string };
+    instagram?: {
+      url: string;
+      display: string;
+      button_text: string;
+    };
     financing_note: string;
   };
   payment?: {
@@ -143,6 +148,9 @@ export interface SiteData {
       options?: string[];
     }>;
     variable_defaults: Record<string, string>;
+  };
+  instagram?: {
+    floating_button: { enabled: boolean; text: string };
   };
   cta: {
     hero: {

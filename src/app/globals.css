@@ -22,4 +22,8 @@
   .btn-whatsapp {
     @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#1ebe57];
   }
+
+  .btn-instagram {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#F77737] px-6 py-3 font-semibold text-white shadow-md transition hover:opacity-90;
+  }
 }

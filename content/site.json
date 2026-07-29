@@ -79,7 +79,7 @@
     "body": "Muchas familias trabajan todo el día y no pueden dar el acompañamiento que su ser querido necesita. Buscar un hogar con profesionales, actividades y compañía de sus pares puede ser la mejor decisión para su calidad de vida. Nosotros nos ocupamos del cuidado diario para que usted pueda visitarlos con tranquilidad y cariño.",
     "visits": {
       "policy": "amplio",
-      "description": "Horario de visitas amplio durante la semana, generalmente de 10:00 a 17:00 hs. Queremos que las familias puedan acompañar a sus seres queridos con flexibilidad.",
+      "description": "Las visitas se coordinan con el equipo para garantizar el bienestar de todos los residentes. Sugerimos reservar horario, pero contamos con flexibilidad para situaciones especiales.",
       "restrictions_note": "Confirmar horarios exactos y políticas especiales por WhatsApp."
     },
     "resident_profile": "Adultos mayores que necesitan acompañamiento, asistencia en actividades diarias, supervisión médica o un entorno seguro con atención permanente."
@@ -335,6 +335,11 @@
       "facebook": "",
       "instagram": ""
     },
+    "instagram": {
+      "url": "",
+      "display": "Instagram",
+      "button_text": "Seguinos en Instagram"
+    },
     "financing_note": "Tenemos un costo accesible para las familias de la zona. Consultanos por WhatsApp según la situación de cada persona."
   },
   "payment": {
@@ -344,6 +349,12 @@
     "issues_invoices": false,
     "internal_note": "Sin PAMI ni obras sociales. No emiten facturas: facturar encarece el servicio y la mayoría de familias se va al doble (otros hogares).",
     "public_summary": "Modalidad particular. No contamos con convenios con obras sociales."
+  },
+  "instagram": {
+    "floating_button": {
+      "enabled": true,
+      "text": "Instagram"
+    }
   },
   "whatsapp": {
     "floating_button": {
@@ -453,34 +464,34 @@
   },
   "faq": [
     {
+      "id": "servicio",
+      "question": "¿Qué incluye el servicio?",
+      "answer": "Incluye habitación, alimentación elaborada en el lugar, control médico gerontológico, enfermería 24/7, actividades recreativas, higiene, lavandería y seguimiento personalizado."
+    },
+    {
       "id": "visitas",
-      "question": "¿Cuáles son los horarios de visita?",
-      "answer": "Generalmente de 10:00 a 17:00 hs durante la semana, con flexibilidad para que las familias puedan acompañar a sus seres queridos. Confirmá el horario exacto por WhatsApp."
+      "question": "¿Puedo visitar a mi familiar en cualquier momento?",
+      "answer": "Las visitas se coordinan con el equipo para garantizar el bienestar de todos los residentes. Sugerimos reservar horario, pero contamos con flexibilidad para situaciones especiales."
     },
     {
-      "id": "urgencias",
-      "question": "¿Qué pasa si mi familiar tiene una urgencia?",
-      "answer": "Tenemos personal de enfermería las 24 horas y protocolos ante emergencias. En una visita o por WhatsApp podemos explicarle el procedimiento detallado."
+      "id": "habitaciones",
+      "question": "¿Habitaciones compartidas?",
+      "answer": "Disponemos de habitaciones individuales y compartidas (2, 3 o 4 camas) según preferencia y necesidades."
     },
     {
-      "id": "modalidad_pago",
-      "question": "¿Trabajan con PAMI u obras sociales?",
-      "answer": "Atendemos en modalidad particular. No contamos con convenios con obras sociales."
+      "id": "comidas",
+      "question": "¿Cómo es el servicio de comidas?",
+      "answer": "Tenemos catering propio con menús supervisados por nutricionista. Se adaptan dietas especiales, texturas y horarios según indicaciones médicas."
     },
     {
-      "id": "culpa",
-      "question": "¿Es malo llevar a papá o mamá a un hogar?",
-      "answer": "No. Muchas familias no pueden dar el cuidado que necesitan por trabajo u otras responsabilidades. Un hogar con profesionales, actividades y compañía puede mejorar su calidad de vida."
+      "id": "seguridad",
+      "question": "¿Qué medidas de seguridad tienen?",
+      "answer": "Contamos con supervisión continua, timbres inalámbricos, control de accesos, protocolos de emergencia y acompañamiento del personal las 24 horas."
     },
     {
-      "id": "perfil",
-      "question": "¿A quién está dirigido el hogar?",
-      "answer": "Adultos mayores que requieren acompañamiento, asistencia diaria, supervisión médica o un entorno seguro con atención permanente."
-    },
-    {
-      "id": "comunicacion",
-      "question": "¿Cómo mantengo contacto con mi familiar?",
-      "answer": "Las visitas son importantes y también puede coordinar llamadas. Consulte los canales de comunicación disponibles por WhatsApp o en su visita."
+      "id": "admision",
+      "question": "¿Cómo es el proceso de admisión?",
+      "answer": "Incluye visita guiada, entrevista con la familia, evaluación médica y presentación de la documentación necesaria. Acompañamos cada paso para que sea simple."
     }
   ],
   "testimonials": [

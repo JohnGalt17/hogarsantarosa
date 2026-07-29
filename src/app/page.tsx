@@ -5,7 +5,7 @@ import { SimpleInfo } from "@/components/SimpleInfo";
 import { Location } from "@/components/Location";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
-import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { SocialFloats } from "@/components/SocialFloats";
 
 export default function HomePage() {
   const data = siteData;
@@ -20,7 +20,7 @@ export default function HomePage() {
         <FAQ data={data} />
       </main>
       <Footer data={data} />
-      <WhatsAppFloat data={data} />
+      <SocialFloats data={data} />
     </>
   );
 }

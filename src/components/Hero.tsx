@@ -1,10 +1,12 @@
 import Image from "next/image";
 import type { SiteData } from "@/types/site";
 import { buildWhatsAppFromTemplate } from "@/lib/whatsapp";
+import { getInstagramUrl } from "@/lib/instagram";
 
 export function Hero({ data }: { data: SiteData }) {
   const imageSrc = data.brand.hero_image ?? data.about.image;
   const imageAlt = data.brand.hero_image_alt ?? data.about.image_alt;
+  const instagramUrl = getInstagramUrl(data);
 
   return (
     <section className="px-4 py-8 sm:px-6">
@@ -30,14 +32,26 @@ export function Hero({ data }: { data: SiteData }) {
           {data.about.story[0]}
         </p>
 
-        <a
-          href={buildWhatsAppFromTemplate(data, data.cta.hero.whatsapp_template_id)}
-          className="btn-whatsapp mt-6 w-full text-center text-lg !py-4 sm:w-auto"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {data.cta.hero.primary}
-        </a>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+          <a
+            href={buildWhatsAppFromTemplate(data, data.cta.hero.whatsapp_template_id)}
+            className="btn-whatsapp w-full text-center text-lg !py-4 sm:w-auto"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {data.cta.hero.primary}
+          </a>
+          {instagramUrl && (
+            <a
+              href={instagramUrl}
+              className="btn-instagram w-full text-center text-lg !py-4 sm:w-auto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {data.contact.instagram?.button_text ?? "Seguinos en Instagram"}
+            </a>
+          )}
+        </div>
 
         <p className="mt-4 text-center text-sm text-gray-500 sm:text-left">
           <a href={`tel:${data.contact.phone_raw}`} className="text-sage hover:underline">
